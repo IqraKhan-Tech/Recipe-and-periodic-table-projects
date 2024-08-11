@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5dc; 
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: #fff; 
+    padding: 40px; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #4a2c2a; 
+}
+
+.image-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cake-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.recipe-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.recipe-info div {
+    text-align: center;
+}
+
+.recipe-info h2 {
+    margin: 0;
+    color: #4a2c2a; 
+}
+
+.ingredients, .instructions, .tips {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #e8d8c1; 
+    border-radius: 4px;
+}
+
+.ingredients h2, .instructions h2, .tips h2 {
+    color: #4a2c2a; 
+}
+
+ul, ol {
+    color: #4a2c2a; 
+}
+
+li {
+    margin-bottom: 10px;
+}
